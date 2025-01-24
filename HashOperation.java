@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.*;
 
 public class HashOperation {
     public static void main(String[] args) {
@@ -23,5 +23,11 @@ public class HashOperation {
         System.out.println(map.remove("UK"));
         System.out.println(map);
         System.out.println(map.remove("Pakistan")); // null
+
+        //Iteration on HashMap
+        Set<String> keys = map.keySet();
+        for(String k : keys){
+            System.out.println(k + " " + map.get(k));
+        }
     }
 }
