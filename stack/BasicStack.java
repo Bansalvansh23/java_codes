@@ -1,7 +1,9 @@
 package stack;
+
 import java.util.Stack;
+
 public class BasicStack {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
 
         // to add element in the stack
